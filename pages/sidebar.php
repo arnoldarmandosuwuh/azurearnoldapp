@@ -26,6 +26,17 @@
                                 </li>
                             </ul>
                         </li>
+                        <li>
+                            <a href="#"><i class="fa fa-book fa-fw"></i> Blob<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="?page=pbuku"><i class="fa fa-table fa-fw"></i> List Blob</a>
+                                </li>
+                                <li>
+                                    <a href="?page=pformbuku"><i class="fa fa-edit fa-fw"></i> Form Blob</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->

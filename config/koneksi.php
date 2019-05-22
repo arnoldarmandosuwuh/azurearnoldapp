@@ -1,8 +1,8 @@
 <?php
 //Koneksi kedatabase
-$hostmysql="arnoldazureapp.mysql.database.azure.com";
-$username_db="arnold@arnoldazureapp";
-$password_db="05121995As" ;
+$hostmysql="localhost";
+$username_db="root";
+$password_db="" ;
 $database="db_azure" ;
 $conn=mysqli_init();
 mysqli_real_connect($conn, $hostmysql, $username_db, $password_db, $database, 3306);

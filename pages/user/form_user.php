@@ -35,7 +35,7 @@
                                             $password = "";
                                         }
                                     ?>
-                                    <form role="form" action="user/user_proses.php" method="post" autocomplete="off">
+                                    <form role="form" action="user/user_proses.php" method="post" autocomplete="off" enctype="multipart/form-data">
                                         <input type="hidden" name="id" id="id" class="form-control" value="<?php echo $id; ?>" placeholder="Enter Your Name">
                                         <div class="form-group">
                                             <label>Name</label>
